@@ -1,18 +1,18 @@
-# ls-chunk-store [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+# lf-chunk-store [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
                  
-[travis-image]: https://img.shields.io/travis/DiegoRBaquero/ls-chunk-store.svg?style=flat
-[travis-url]: https://travis-ci.org/DiegoRBaquero/ls-chunk-store
-[npm-image]: https://img.shields.io/npm/v/ls-chunk-store.svg?style=flat
-[npm-url]: https://npmjs.org/package/ls-chunk-store
-[downloads-image]: https://img.shields.io/npm/dm/ls-chunk-store.svg?style=flat
-[downloads-url]: https://npmjs.org/package/ls-chunk-store
+[travis-image]: https://img.shields.io/travis/DiegoRBaquero/lf-chunk-store.svg?style=flat
+[travis-url]: https://travis-ci.org/DiegoRBaquero/lf-chunk-store
+[npm-image]: https://img.shields.io/npm/v/lf-chunk-store.svg?style=flat
+[npm-url]: https://npmjs.org/package/lf-chunk-store
+[downloads-image]: https://img.shields.io/npm/dm/lf-chunk-store.svg?style=flat
+[downloads-url]: https://npmjs.org/package/lf-chunk-store
 
-#### Browser localStorage chunk store that is [abstract-chunk-store](https://github.com/mafintosh/abstract-chunk-store) compliant
+#### Browser localForage chunk store that is [abstract-chunk-store](https://github.com/mafintosh/abstract-chunk-store) compliant
 
 ## Install
 
 ```
-npm install ls-chunk-store
+npm install lf-chunk-store
 ```
 
 ## Usage
@@ -20,17 +20,17 @@ npm install ls-chunk-store
 ### Generate random prefix
 
 ``` js
-var LSChunkStore = require('ls-chunk-store')
+var LFChunkStore = require('lf-chunk-store')
 
-var chunks = new LSChunkStore(10)
+var chunks = new LFChunkStore(10)
 ```
 
 ### Use specified prefix
 
 ``` js
-var LSChunkStore = require('ls-chunk-store')
+var LFChunkStore = require('lf-chunk-store')
 
-var chunks = new LSChunkStore(10, {
+var chunks = new LFChunkStore(10, {
   prefix: 'myFile.txt'
 })
 ```
