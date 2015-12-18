@@ -35,8 +35,8 @@
     "url": "git@github.com:DiegoRBaquero/lf-chunk-store.git"
   },
   "scripts": {
-    "build": "browserify -s lf-chunk-store ./ | uglifyjs -m > dist/lf-chunk-store.min.js",
-    "build-dev": "browserify -s lf-chunk-store ./ > dist/lf-chunk-store.js",
+    "build": "browserify -s lf-chunk-store -e ./ | uglifyjs -m > dist/lf-chunk-store.min.js",
+    "build-dev": "browserify -s lf-chunk-store -e ./ > dist/lf-chunk-store.js",
     "test": "standard && node test"
   }
 }
