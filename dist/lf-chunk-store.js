@@ -4685,10 +4685,10 @@ Storage.prototype.put = function (index, buf, cb) {
     if(err) {
       console.error(err)
       this.chunks[index] = buf
+      return
     }
-  })
-
-  nextTick(cb, null)
+    nextTick(cb, null)
+  })  
 }
 
 Storage.prototype.get = function (index, opts, cb) {
