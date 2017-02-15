@@ -1,4 +1,6 @@
 # lf-chunk-store [![travis][travis-image]][travis-url] [![npm][npm-image]][npm-url] [![downloads][downloads-image]][downloads-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/DiegoRBaquero/lf-chunk-store.svg)](https://greenkeeper.io/)
                  
 [travis-image]: https://img.shields.io/travis/DiegoRBaquero/lf-chunk-store.svg?style=flat
 [travis-url]: https://travis-ci.org/DiegoRBaquero/lf-chunk-store
