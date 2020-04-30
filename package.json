@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "abstract-chunk-store": "1.4.0",
-    "browserify": "12.0.2",
+    "browserify": "16.5.1",
     "standard": "5.4.1",
     "tape": "4.13.2",
     "uglify-js": "2.8.29"
