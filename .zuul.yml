@@ -1,6 +1,0 @@
-ui: tape
-browsers:
-  - name: firefox
-    version: 30..latest
-  - name: chrome
-    version: 30..latest
