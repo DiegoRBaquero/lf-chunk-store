@@ -17,7 +17,7 @@
     "abstract-chunk-store": "1.4.0",
     "browserify": "16.5.1",
     "standard": "14.3.3",
-    "tape": "4.13.2",
+    "tape": "5.7.5",
     "uglify-js": "2.8.29"
   },
   "homepage": "https://github.com/DiegoRBaquero/lf-chunk-store",
